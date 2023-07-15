@@ -72,6 +72,59 @@ nav li a {
     width: 100%;
     margin-top: 20px;
 }
+/* Headers Section End */
+
+
+
+
+
+/* Feture Team Section Start */
+
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    margin: 50px 300px ;
+    gap: 30px;
+    
+}
+
+.feature-team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.feature-team-text{
+    padding-right: 70px;
+}
+
+.team-title .quick-list{
+    
+    color: #727272;
+    font-weight: 500;
+
+}
+
+.team-title .of-our-text{
+    color: #131313;
+    font-weight: 700;
+}
+
+.team-title .text-feature{
+    color: #FF900E ;
+    font-weight: 700;
+}
+
+
+
+
+
 
 /* responsive Media queries */
 /* Mobile Device */
@@ -86,6 +139,7 @@ nav li a {
     }
     
 }
+
 
 /* tablet or mediam devices */
 @media screen and (min-width: 577px) and (max-width: 960px ) {

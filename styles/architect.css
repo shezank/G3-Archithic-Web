@@ -1,57 +1,100 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* sharde Style */
-.btn-primary{
-    
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
 }
-*{
+
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
-header{
+header {
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 20px 240px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     font-size: 2.8rem;
     font-weight: 700;
     color: var(--dark-01, #131313);
 }
-nav >ul{
+
+nav>ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 30px;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: var(--dark-02, #424242);
 }
 
 /* bannar Styles */
-.bannar-content{
+.bannar-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
 
-.bannar-title{
+.bannar-title {
     font-size: 4rem;
     font-weight: 700;
-    color: #131313 ;
+    color: #131313;
 }
 
-.bannar-description{
-    color: #727272 ;
+.bannar-description {
+    color: #727272;
 }
 
+.bannar-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* responsive Media queries */
+/* Mobile Device */
+@media screen and (max-width:576px) {
+
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction:column;
+        align-items: center;
+    }
+    
+}
+
+/* tablet or mediam devices */
+@media screen and (min-width: 577px) and (max-width: 960px ) {
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

@@ -17,6 +17,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.bannar-gray-text {
+    color: #727272;
+}
+
+.team-title{
+    font-size: 2.5rem;
+}
+
 header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 20px 240px;
@@ -64,9 +72,7 @@ nav li a {
     color: #131313;
 }
 
-.bannar-description {
-    color: #727272;
-}
+
 
 .bannar-img img{
     width: 100%;
@@ -100,13 +106,9 @@ nav li a {
 
 }
 
-.feature-team-text{
-    padding-right: 70px;
-}
+
 
 .team-title .quick-list{
-    
-    color: #727272;
     font-weight: 500;
 
 }
@@ -123,6 +125,14 @@ nav li a {
 
 
 
+/* Facts Section Start */
+
+.facts{
+    margin: 100px 1000px 100px 240px;
+
+}
+
+
 
 
 
@@ -133,9 +143,13 @@ nav li a {
     header{
         padding: 20px;
     }
-    nav{
+    nav, .team-container{
         flex-direction:column;
         align-items: center;
+        margin: 5px ;
+    }
+    .feature-team-img{
+        grid-template-columns: 1fr;
     }
     
 }
@@ -146,9 +160,10 @@ nav li a {
     header{
         padding: 40px;
     }
-    nav{
+    nav, .team-container{
         flex-direction: column;
         align-items: center;
+        margin: 50px;
     }
     
 }
